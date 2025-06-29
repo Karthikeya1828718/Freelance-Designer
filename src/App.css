@@ -34,7 +34,6 @@ body {
   animation: scroll 10s linear infinite;
 }
 
-#black {
-    background-color: black;    
-    color: white;
+#i {
+  color: black;
 }

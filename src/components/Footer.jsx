@@ -12,7 +12,7 @@ const Footer = () => {
               <a href="#" className="hover:underline">Dribbble</a>
               <a href="#" className="hover:underline">Behance</a>
               <a href="#" className="hover:underline">Twitter</a>
-              <a href="#" class="hover:underline">Instagram</a>
+              <a href="#" className="hover:underline">Instagram</a>
             </div>
           </div>
         </footer>
