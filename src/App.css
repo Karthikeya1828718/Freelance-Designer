@@ -1,0 +1,40 @@
+
+@import "tailwindcss";
+
+#img{
+    width: 250px; 
+    height: 150px;
+}
+
+body {
+      margin: 0;
+      background-color: #050508;
+      color: #eee;
+      font-family: 'Inter', Arial, sans-serif;
+      min-height: 100vh;
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #4b5563;
+      border-radius: 3px;
+    }
+    @keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 10s linear infinite;
+}
+
+#black {
+    background-color: black;    
+    color: white;
+}
